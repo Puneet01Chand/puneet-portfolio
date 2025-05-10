@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: `${process.env.PUBLIC_URL}/images/ideas.svg` },
+  { text: "Concepts", imgPath: `${process.env.PUBLIC_URL}/images/concepts.svg`},
+  { text: "Designs", imgPath: `${process.env.PUBLIC_URL}/images/designs.svg` },
+  { text: "Code", imgPath: `${process.env.PUBLIC_URL}/images/code.svg` },
+  { text: "Ideas", imgPath: `${process.env.PUBLIC_URL}/images/ideas.svg` },
+  { text: "Concepts", imgPath: `${process.env.PUBLIC_URL}/images/concepts.svg` },
+  { text: "Designs", imgPath: `${process.env.PUBLIC_URL}/images/designs.svg` },
+  { text: "Code", imgPath: `${process.env.PUBLIC_URL}/images/code.svg` },
 ];
 
 const counterItems = [
@@ -37,53 +37,53 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-1.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-2.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-3.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-4.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-5.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-6.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-7.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-8.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-9.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-10.png`,
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/company-logo-11.png`,
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/seo.png`,
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/chat.png`,
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/time.png`,
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -92,58 +92,58 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/react.png`,
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/python.svg`,
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/node.png`,
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/three.png`,
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: `${process.env.PUBLIC_URL}/images/logos/git.svg`,
   },
 ];
 
 const techStackIcons = [
   {
     name: "Flutter",
-    image: "/images/logos/flutter.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/flutter.png`,
   },
   {
     name: "Dart",
-    image: "/images/logos/dart.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/dart.png`,
   },
   {
     name: "Unity",
-    image: "/images/logos/unity.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/unity.png`,
   },
   {
     name: "C#",
-    image: "/images/logos/c_sharp.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/c_sharp.png`,
   },
   {
     name: "Javascript",
-    image: "/images/logos/javascript.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/javascript.png`,
   },
   {
     name: "React",
-    image: "/images/logos/react.png",
+    image: `${process.env.PUBLIC_URL}/images/logos/react.png`,
   },
 ];
 
 const expCards = [
   {
     review:"Puneet is a key contributor to our mobile projects, bringing strong leadership, collaboration, and a user-first mindset. His ideas and initiative consistently improve the quality and impact of our work. He is a valuable part of the team.",
-    imgPath: "/images/vibe.png",  
-    logoPath: "/images/vibe_logo.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/vibe.png`,  
+    logoPath: `${process.env.PUBLIC_URL}/images/vibe_logo.png`,
     title: "Sr. Flutter Developer",
     date: "Februaury 2024 - Present",
     responsibilities: [
@@ -154,9 +154,9 @@ const expCards = [
     ],
   },
   {
-     review: "Puneet played a key role in helping the team meet deadlines and deliver high-quality, user-focused apps on time. His mentorship and dedication to performance and user experience made him an invaluable asset to the team.",
-    imgPath: "/images/cqlsys.png",
-    logoPath: "/images/logo_cqlsys.png",
+    review: "Puneet played a key role in helping the team meet deadlines and deliver high-quality, user-focused apps on time. His mentorship and dedication to performance and user experience made him an invaluable asset to the team.",
+    imgPath: `${process.env.PUBLIC_URL}/images/cqlsys.png`,
+    logoPath: `${process.env.PUBLIC_URL}/images/logo_cqlsys.png`,
     title: "Flutter Developer",
     date: "September 2022 - Februaury 2024",
     responsibilities: [
@@ -233,27 +233,27 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/insta.png`,
     url:null,
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/fb.png`,
     url:null,
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/x.png`,
     url:null,
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/linkedin.png`,
     url:"https://www.linkedin.com/in/puneet-chand-296479219",
   },
   {
     name: "github",
-    imgPath: "/images/github.png",
+    imgPath: `${process.env.PUBLIC_URL}/images/github.png`,
     url:"https://github.com/Puneet01Chand",
   },
 ];
