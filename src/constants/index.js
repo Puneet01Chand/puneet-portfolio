@@ -19,7 +19,7 @@ const navLinks = [
 
 const words = [
   { text: "Ideas", imgPath: `${process.env.PUBLIC_URL}/images/ideas.svg` },
-  { text: "Concepts", imgPath: `https://Puneet01Chand.github.io/puneet-portfolio/images/concepts.svg`},
+  { text: "Concepts", imgPath: `${process.env.PUBLIC_URL}/images/concepts.svg`},
   { text: "Designs", imgPath: `${process.env.PUBLIC_URL}/images/designs.svg` },
   { text: "Code", imgPath: `${process.env.PUBLIC_URL}/images/code.svg` },
   { text: "Ideas", imgPath: `${process.env.PUBLIC_URL}/images/ideas.svg` },
