@@ -36,7 +36,7 @@ const GlowCard = ({ card, index, children }) => {
       <div className="flex items-center gap-1 mb-5">
         {Array.from({ length: 5 }, (_, i) => (
           <img key={i}
-            src={`${process.env.PUBLIC_URL}/images/star.png`}
+            src="./images/star.png"
             className="size-5" />
         ))}
       </div>

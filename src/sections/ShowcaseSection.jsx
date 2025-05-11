@@ -25,7 +25,7 @@ const AppShowcase = () => {
               <div ref={rydeRef} className="first-project-wrapper">
                 <div className="image-wrapper">
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/project_ready_golf.png`}
+                    src="./images/project_ready_golf.png"
                     alt="Ready golf App"
                   />  
                 </div>
@@ -45,7 +45,7 @@ const AppShowcase = () => {
                 <div className="project" ref={libraryRef}>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src={`${process.env.PUBLIC_URL}/images/project_vibe_marketing.png`}
+                      src="./images/project_vibe_marketing.png"
                       alt="Library Management Platform"
                     />
                   </div>
@@ -54,7 +54,7 @@ const AppShowcase = () => {
 
                 <div className="project" ref={ycDirectoryRef}>
                   <div className="image-wrapper bg-[#FFE7EB]">
-                    <img src={`${process.env.PUBLIC_URL}/images/project_ogle_it.png`} alt="YC Directory App" />
+                    <img src="./images/project_ogle_it.png" alt="YC Directory App" />
                   </div>
                   <h2>On-Demand Services & Appointment Platform</h2>
                 </div>
