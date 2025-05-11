@@ -20,14 +20,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: `./images/ideas.svg` },
-  { text: "Concepts", imgPath: `./images/concepts.svg`},
-  { text: "Designs", imgPath: `./images/designs.svg` },
-  { text: "Code", imgPath: `./images/code.svg` },
-  { text: "Ideas", imgPath: `./images/ideas.svg` },
-  { text: "Concepts", imgPath: `./images/concepts.svg` },
-  { text: "Designs", imgPath: `./images/designs.svg` },
-  { text: "Code", imgPath: `./images/code.svg` },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg"},
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg" },
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
 ];
 
 const counterItems = [
@@ -39,53 +39,53 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-1.png`,
+    imgPath: "./images/logos/company-logo-1.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-2.png`,
+    imgPath: "./images/logos/company-logo-2.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-3.png`,
+    imgPath: "./images/logos/company-logo-3.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-4.png`,
+    imgPath: "./images/logos/company-logo-4.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-5.png`,
+    imgPath: "./images/logos/company-logo-5.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-6.png`,
+    imgPath: "./images/logos/company-logo-6.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-7.png`,
+    imgPath: "./images/logos/company-logo-7.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-8.png`,
+    imgPath: "./images/logos/company-logo-8.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-9.png`,
+    imgPath: "./images/logos/company-logo-9.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-10.png`,
+    imgPath: "./images/logos/company-logo-10.png",
   },
   {
-    imgPath: `${baseUrl}/images/logos/company-logo-11.png`,
+    imgPath: "./images/logos/company-logo-11.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: `${baseUrl}/images/seo.png`,
+    imgPath: "./images/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: `${baseUrl}/images/chat.png`,
+    imgPath: "./images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: `${baseUrl}/images/time.png`,
+    imgPath: "./images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -94,58 +94,58 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: `${baseUrl}/images/logos/react.png`,
+    imgPath: "./images/logos/react.png",
   },
   {
     name: "Python Developer",
-    imgPath: `${baseUrl}/images/logos/python.svg`,
+    imgPath: "./images/logos/python.svg",
   },
   {
     name: "Backend Developer",
-    imgPath: `${baseUrl}/images/logos/node.png`,
+    imgPath: "./images/logos/node.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: `${baseUrl}/images/logos/three.png`,
+    imgPath: "./images/logos/three.png",
   },
   {
     name: "Project Manager",
-    imgPath: `${baseUrl}/images/logos/git.svg`,
+    imgPath: "./images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
     name: "Flutter",
-    image: `${baseUrl}/images/logos/flutter.png`,
+    image: "./images/logos/flutter.png",
   },
   {
     name: "Dart",
-    image: `${baseUrl}/images/logos/dart.png`,
+    image: "./images/logos/dart.png",
   },
   {
     name: "Unity",
-    image: `${baseUrl}/images/logos/unity.png`,
+    image: "./images/logos/unity.png",
   },
   {
     name: "C#",
-    image: `${baseUrl}/images/logos/c_sharp.png`,
+    image: "./images/logos/c_sharp.png",
   },
   {
     name: "Javascript",
-    image: `${baseUrl}/images/logos/javascript.png`,
+    image: "./images/logos/javascript.png",
   },
   {
     name: "React",
-    image: `${baseUrl}/images/logos/react.png`,
+    image: "./images/logos/react.png",
   },
 ];
 
 const expCards = [
   {
     review:"Puneet is a key contributor to our mobile projects, bringing strong leadership, collaboration, and a user-first mindset. His ideas and initiative consistently improve the quality and impact of our work. He is a valuable part of the team.",
-    imgPath: `${baseUrl}/images/vibe.png`,  
-    logoPath: `${baseUrl}/images/vibe_logo.png`,
+    imgPath: "./images/vibe.png",  
+    logoPath: "./images/vibe_logo.png",
     title: "Sr. Flutter Developer",
     date: "Februaury 2024 - Present",
     responsibilities: [
@@ -157,8 +157,8 @@ const expCards = [
   },
   {
     review: "Puneet played a key role in helping the team meet deadlines and deliver high-quality, user-focused apps on time. His mentorship and dedication to performance and user experience made him an invaluable asset to the team.",
-    imgPath: `${baseUrl}/images/cqlsys.png`,
-    logoPath: `${baseUrl}/images/logo_cqlsys.png`,
+    imgPath: "./images/cqlsys.png",
+    logoPath: "./images/logo_cqlsys.png",
     title: "Flutter Developer",
     date: "September 2022 - Februaury 2024",
     responsibilities: [
@@ -235,27 +235,27 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: `${baseUrl}/images/insta.png`,
+    imgPath: "./images/insta.png",
     url:null,
   },
   {
     name: "fb",
-    imgPath: `${baseUrl}/images/fb.png`,
+    imgPath: "./images/fb.png",
     url:null,
   },
   {
     name: "x",
-    imgPath: `${baseUrl}/images/x.png`,
+    imgPath: "./images/x.png",
     url:null,
   },
   {
     name: "linkedin",
-    imgPath: `${baseUrl}/images/linkedin.png`,
+    imgPath: "./images/linkedin.png",
     url:"https://www.linkedin.com/in/puneet-chand-296479219",
   },
   {
     name: "github",
-    imgPath: `${baseUrl}/images/github.png`,
+    imgPath: "./images/github.png",
     url:"https://github.com/Puneet01Chand",
   },
 ];

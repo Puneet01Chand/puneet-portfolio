@@ -2,7 +2,7 @@ import { useGLTF } from "@react-three/drei";
 
 export function Computer(props) {
   const { nodes, materials } = useGLTF(
-     `https://puneet01chand.github.io/puneet-portfolio/models/computer-optimized-transformed.glb`
+     `./models/computer-optimized-transformed.glb`
   );
   return (
     <group {...props} dispose={null}>
@@ -24,6 +24,6 @@ export function Computer(props) {
   );
 }
 
-useGLTF.preload(`https://puneet01chand.github.io/puneet-portfolio/models/computer-optimized-transformed.glb`);
+useGLTF.preload(`./models/computer-optimized-transformed.glb`);
 
 export default Computer;

@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
 export function Room(props) {
-  const { scene } = useGLTF(`https://puneet01chand.github.io/puneet-portfolio/models/knight.glb`)
+  const { scene } = useGLTF(`./models/knight.glb`)
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
   return (
@@ -41,4 +41,4 @@ export function Room(props) {
   )
 }
 
-useGLTF.preload(`https://puneet01chand.github.io/puneet-portfolio/models/knight.glb`)
+useGLTF.preload(`./models/knight.glb`)
