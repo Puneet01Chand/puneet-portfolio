@@ -13,10 +13,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -38,15 +38,15 @@ const counterItems = [
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "./images/logos/company-logo-1.png",
-  },
+  // {
+  //   imgPath: "./images/logos/company-logo-1.png",
+  // },
   {
     imgPath: "./images/logos/company-logo-2.png",
   },
-  {
-    imgPath: "./images/logos/company-logo-3.png",
-  },
+  // {
+  //   imgPath: "./images/logos/company-logo-3.png",
+  // },
   {
     imgPath: "./images/logos/company-logo-4.png",
   },
@@ -56,20 +56,50 @@ const logoIconsList = [
   {
     imgPath: "./images/logos/company-logo-6.png",
   },
-  {
-    imgPath: "./images/logos/company-logo-7.png",
-  },
+  // {
+  //   imgPath: "./images/logos/company-logo-7.png",
+  // },
   {
     imgPath: "./images/logos/company-logo-8.png",
   },
+  // {
+  //   imgPath: "./images/logos/company-logo-9.png",
+  // },
+  // {
+  //   imgPath: "./images/logos/company-logo-10.png",
+  // },
+  // {
+  //   imgPath: "./images/logos/company-logo-11.png",
+  // },
   {
-    imgPath: "./images/logos/company-logo-9.png",
+    imgPath: "./images/logos/company-logo-12.png",
   },
   {
-    imgPath: "./images/logos/company-logo-10.png",
+    imgPath: "./images/logos/company-logo-13.png",
   },
   {
-    imgPath: "./images/logos/company-logo-11.png",
+    imgPath: "./images/logos/company-logo-14.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-15.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-16.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-17.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-18.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-19.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-20.png",
+  },
+  {
+    imgPath: "./images/logos/company-logo-21.png",
   },
 ];
 
