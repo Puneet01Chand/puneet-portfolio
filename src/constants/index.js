@@ -173,34 +173,56 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review:"Puneet is a key contributor to our mobile projects, bringing strong leadership, collaboration, and a user-first mindset. His ideas and initiative consistently improve the quality and impact of our work. He is a valuable part of the team.",
-    imgPath: "./images/vibe.png",  
-    logoPath: "./images/vibe_logo.png",
-    title: "Sr. Flutter Developer",
-    date: "Februaury 2024 - Present",
+    summary:
+      "Leading high-impact AI-driven mobile application development while working directly with C-suite leadership. Responsible for architecting scalable systems using Clean Architecture and advanced state management, building complex data visualization components, and ensuring secure enterprise-level document workflows.",
+    imgPath: "./images/d2ai_logo.jpeg",
+    logoPath: "./images/d2ai.png",
+    title: "Senior Flutter Developer",
+    date: "August 2025 – Present",
     responsibilities: [
-      "Led the development of cross-platform mobile applications with custom UI designs and complex animations tailored to each project's requirements.",
-      "Managed app architecture and navigation flow to ensure intuitive user experiences and maintainable code structure.",
-      "Collaborated closely with designers, backend developers, and stakeholders to deliver robust and scalable applications",
-      "Actively contributed to project planning by pitching innovative ideas and suggesting improvements to enhance app functionality and user satisfaction.",
-    ],
+      "Collaborate with C-suite stakeholders to define product strategy and technical roadmap.",
+      "Architect Flutter apps using Clean Architecture, BLoC, Riverpod, AutoRoute, and Repository Pattern.",
+      "Develop custom interactive charts and data visualizations for analytics dashboards.",
+      "Implement secure document workflows using pre-signed URLs.",
+      "Design and maintain robust error-handling architecture using dartz Either."
+    ]
   },
+
   {
-    review: "Puneet played a key role in helping the team meet deadlines and deliver high-quality, user-focused apps on time. His mentorship and dedication to performance and user experience made him an invaluable asset to the team.",
+    summary:
+      "Served as the senior developer responsible for defining mobile architecture, implementing secure payment systems, and delivering reusable component libraries. Played a key role in shaping development standards, improving scalability, and optimizing performance across marketing applications.",
+    imgPath: "./images/vibe.png",
+    logoPath: "./images/vibe_logo.png",
+    title: "Senior Flutter Developer",
+    date: "February 2024 – July 2025",
+    responsibilities: [
+      "Led development and established architecture standards for mobile projects.",
+      "Integrated PayFast, RazorPay, and Stripe payment gateways.",
+      "Built reusable UI libraries, including image/video pickers and animation widgets.",
+      "Developed modular API layers with clear data and domain separation.",
+      "Implemented REST and SOAP API integrations with XML handling.",
+      "Architected scalable state management using BLoC and GetX."
+    ]
+  },
+
+  {
+    summary:
+      "Developed cross-platform applications across Android, iOS, and Web while consistently solving complex problems and improving project performance. Implemented Google Maps features, optimized GetX state management, and enhanced user experience with responsive UI improvements.",
     imgPath: "./images/cqlsys.png",
     logoPath: "./images/logo_cqlsys.png",
     title: "Flutter Developer",
-    date: "September 2022 - Februaury 2024",
+    date: "September 2022 – February 2024",
     responsibilities: [
-     "Developed cross-platform applications for iOS, Android, and Web using Flutter",
-      "Created high-fidelity, user-centric apps with optimized performance and smooth user experiences.",
-      "Built diverse applications, including e-commerce platforms, dating apps, and business management tools.",
-      "Coordinated with the product team to implement features based on feedback.",
-      "Mentored junior developers and participated in code reviews to uphold development standards and team productivity.",
-      "Conducted code reviews, testing, and performance optimization to ensure reliability and scalability.",
-    ],
-  },
+      "Developed applications for Android, iOS, and Web with consistent UI/UX.",
+      "Integrated Google Maps API for 8+ location-based apps, increasing engagement by 25%.",
+      "Optimized GetX state management with custom performance patterns.",
+      "Implemented real-time communication features using Socket.IO and Firebase.",
+      "Improved UI/UX with responsive layouts and performance optimization.",
+      "Served as the primary problem solver for challenging technical issues."
+    ]
+  }
 ];
+
 
 const expLogos = [
   {
