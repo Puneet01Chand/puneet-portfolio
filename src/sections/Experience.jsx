@@ -105,11 +105,11 @@ const Experience = () => {
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
-                    <div>
+                    <div className="h-10 flex items-center">
                       <img
                         src={card.imgPath}
                         alt="exp-img"
-                        className="w-30 h-10 object-contain" // Adjust width and height as needed
+                        className="max-h-full w-auto object-contain object-left"
                       />
                     </div>
                   </GlowCard>
